@@ -79,6 +79,8 @@
                     <WindowsFormsHost  HorizontalAlignment="Left" Height="74" Margin="233,71,0,0" VerticalAlignment="Top" Width="83">
 	                            <emgu:ImageBox x:Name="imgBoxFace"></emgu:ImageBox>
 	                        </WindowsFormsHost>
+				<WindowsFormsHost HorizontalAlignment="Left" Height="64" Margin="128,182,0,0" VerticalAlignment="Top" Width="77">
+	                            <emgu:ImageBox x:Name="imgBoxEyes"></emgu:ImageBox>
 			</Grid>
             </TabItem>
 
