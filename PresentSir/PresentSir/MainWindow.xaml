@@ -19,7 +19,10 @@
                     </wpf:WindowsFormsHost>
                         <GridSplitter HorizontalAlignment="Left" Height="311" Margin="380,79,0,0" VerticalAlignment="Top" Width="5"/>
                     <TextBlock HorizontalAlignment="Left" Margin="411,29,0,0" TextWrapping="Wrap" Text="Final Step" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Width="68" Height="18"/>
-                    
+                    <TextBlock HorizontalAlignment="Left" Margin="411,57,0,0" TextWrapping="Wrap" Text="Detected Students" VerticalAlignment="Top" FontSize="14" Width="121" Height="16"/>
+                    <TextBox x:Name="TBx_DetectedStudent" HorizontalAlignment="Left" Height="25" Margin="562,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
+                    <Button x:Name="BTn_ResetAttendance" Content="Reset Attendance" HorizontalAlignment="Left" Margin="412,176,0,0" VerticalAlignment="Top" Width="140" Height="30" FontSize="14" Click="BTn_ResetAttendance_Click"/>
+                    <Button x:Name="BTn_ViewAttendance" Content="View Attendance" HorizontalAlignment="Left" Margin="586,176,0,0" VerticalAlignment="Top" Width="140" Height="30" Click="BTn_ViewAttendance_Click"/>
                                 <GridSplitter HorizontalAlignment="Left" Height="204" Margin="571,116,0,0" VerticalAlignment="Top" Width="5" RenderTransformOrigin="0.5,0.5">
                         <GridSplitter.RenderTransform>
                             <TransformGroup>
