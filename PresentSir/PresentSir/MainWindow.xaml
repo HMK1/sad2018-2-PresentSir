@@ -66,6 +66,7 @@
                     </GridSplitter>
                     <TextBlock HorizontalAlignment="Left" Margin="370.6,299,0,0" TextWrapping="Wrap" Text="Final Step" VerticalAlignment="Top" FontSize="14" FontWeight="Bold" Height="22" Width="91" Grid.Column="2"/>
                     <TextBlock HorizontalAlignment="Left" Margin="370.6,331,0,0" TextWrapping="Wrap" Text="Full Name" VerticalAlignment="Top" FontSize="14" Height="21" Width="89" Grid.Column="2"/>
+                       <TextBlock HorizontalAlignment="Left" Margin="367.6,362,0,0" TextWrapping="Wrap" Text="Student ID" VerticalAlignment="Top" FontSize="14" Height="21" Width="93" Grid.Column="2"/>
                         <Button x:Name="BTn_AddStudent" Content="Add Student" HorizontalAlignment="Left" Margin="561.6,406,0,0" VerticalAlignment="Top" Width="86" Height="24" Click="BTn_AddStudent_Click" Grid.Column="2"/>
 
                     <Grid HorizontalAlignment="Left" Height="253" Margin="339.6,10,0,0" VerticalAlignment="Top" Width="351" Grid.Column="2"/>
