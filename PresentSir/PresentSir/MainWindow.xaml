@@ -72,7 +72,10 @@
                         <Button x:Name="BTn_AddStudent" Content="Add Student" HorizontalAlignment="Left" Margin="561.6,406,0,0" VerticalAlignment="Top" Width="86" Height="24" Click="BTn_AddStudent_Click" Grid.Column="2"/>
 
                     <Grid HorizontalAlignment="Left" Height="253" Margin="339.6,10,0,0" VerticalAlignment="Top" Width="351" Grid.Column="2"/>
-                </Grid>
+                    <wpf:WindowsFormsHost Height="310" Margin="30,119,402.2,0" VerticalAlignment="Top" Grid.ColumnSpan="3">
+	                        <emgu:ImageBox x:Name="imgBox"></emgu:ImageBox>
+	                    </wpf:WindowsFormsHost>
+                    </Grid>
             </TabItem>
 
         </TabControl>
